@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full">
-      <header className="font-medium text-sm tracking-tighter w-full bg-gray-200 flex justify-center py-4 items-center">Imports With Angel</header>
+      <header className="font-medium text-sm tracking-tighter w-full bg-black text-white flex justify-center py-4 items-center">Imports With Angel</header>
       <section className="px-4 hero w-full flex flex-col items-center ">
-        <div className="headline font-bold mt-18 leading-12 text-4xl text-center w-full">Importation from China Master-Class</div>
-        <div className="subheadline text-xl pt-7 font-medium text-center w-full">Learn How to Import Goods easily and safely from China in the next 3 weeks....</div>
+        <div className="headline font-bold mt-18 leading-12 text-4xl text-center w-full">Import from China like a pro</div>
+        <div className="subheadline text-base pt-7 font-medium text-center w-full">Get insider knowledge on navigating China's complex market, finding reliable suppliers, and streamlining your import process to boost profits and growth.</div>
         <div className="video">
           <h3 className="bg-green-200 mt-5 mb-5 font-medium text-sm p-4 text-center rounded"> <span className="text-lg text-green-700">Step 1 of 2: </span>Watch This Video</h3>
           <video  className="rounded" loop controls>
