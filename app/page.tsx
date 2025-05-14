@@ -363,7 +363,7 @@ export default function Home() {
         </button>
       </section>
 
-      <section className="mb-18 px-4 w-full flex flex-col items-center text-center testimonials bg-gray-100 py-18">
+      <section className=" px-4 w-full flex flex-col items-center text-center testimonials bg-gray-100 py-18">
         <h3 className="font-bold leading-12 text-4xl text-center w-full capitalize">
           WHO IS ANGEL?
         </h3>
@@ -380,7 +380,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <footer className="px-4 mt-18 w-full p-3 bg-black text-white">
+      <footer className="px-4 w-full p-3 bg-black text-white">
         <div className="w-full flex justify-center gap-x-2 items-center">
           <span className="text-xs font-medium">2025</span>
           <span className="w-[20px] opacity-70">
