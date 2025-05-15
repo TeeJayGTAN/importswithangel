@@ -266,7 +266,7 @@ export default function Home() {
           All for just ₦3,000(for a limited time) After 5 days, the price goes
           back to ₦10,000
         </h5>
-        {/* TIMER COMPONENET HERE */}
+        <Timer/>
         <div className="cont w-full flex justify-center">
           <Link href="http://wa.link/qlhsbr" target="_blank" className="text-center cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
             Click here to Join the Class Now — Only ₦3,000
