@@ -47,7 +47,7 @@ export default function Timer() {
   }, []);
 
   return (
-    <div className="w-full rounded text-xl bg-black text-white p-4 flex justify-center items-center ">
+    <div className="w-full max-w-[95%] mx-auto rounded text-xl bg-black text-white p-4 flex justify-center items-center gap-x-1">
       {/* <TimerItem
         timer={timeLeft.months}
         value={timeLeft.months == 1 ? "Month" : "Months"}
@@ -57,17 +57,17 @@ export default function Timer() {
         timer={timeLeft.days}
         value={timeLeft.days == 1 ? "Day" : "Days"}
       />
-      <hr className="border-r border-white w-5 rotate-z-90"/>
+      <hr className="border-r border-white w-7 rotate-z-90"/>
       <TimerItem
         timer={timeLeft.hours}
         value={timeLeft.hours == 1 ? "Hour" : "Hours"}
       />
-      <hr className="border-r border-white w-5 rotate-z-90"/>
+      <hr className="border-r border-white w-7 rotate-z-90"/>
       <TimerItem
         timer={timeLeft.minutes}
         value={timeLeft.minutes == 1 ? "Minute" : "Minutes"}
       />
-      <hr className="border-r border-white w-5 rotate-z-90"/>
+      <hr className="border-r border-white w-7 rotate-z-90"/>
       <TimerItem
         timer={timeLeft.seconds}
         value={timeLeft.seconds == 1 ? "Second" : "Seconds"}
