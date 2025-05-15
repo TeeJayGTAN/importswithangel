@@ -114,7 +114,7 @@ export default function Home() {
               />
             </div>
         </div>
-        <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="text-center cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
           <span className="text-lg text-red-700">Step 2 of 2: </span>
           <br />
           Click here to Join the Class Now — Only ₦3,000
@@ -162,7 +162,7 @@ export default function Home() {
             Resell and make 200%+ profit like my other students
           </li>
         </ul>
-        <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="text-center cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
           Click here to Join the Class Now — Only ₦3,000
         </Link>
       </section>
@@ -264,7 +264,7 @@ export default function Home() {
         </h5>
         {/* TIMER COMPONENET HERE */}
         <div className="cont w-full flex justify-center">
-          <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
+          <Link href="http://wa.link/qlhsbr" target="_blank" className="text-center cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
             Click here to Join the Class Now — Only ₦3,000
           </Link>
         </div>
@@ -313,7 +313,7 @@ export default function Home() {
           <span className="former line-through text-lg opacity-60 font-bold">N10,000</span>
           <span className="discount text-4xl font-bold">N3,000</span>
         </div>
-        <Link href="http://wa.link/qlhsbr" target="_blank" className="bg-red-400 mt-2 p-4 rounded ">ENROLL NOW</Link>
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="text-center bg-red-400 mt-2 p-4 rounded ">ENROLL NOW</Link>
         </div>
       </section> */}
 
@@ -362,7 +362,7 @@ export default function Home() {
         <h5 className="text-sm mt-7 text-center mb-8">
           Don’t miss out. This knowledge could change your income forever.
         </h5>
-        <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[45%] block mx-auto mt-5 font-medium text-sm p-4 rounded bg-red-400">
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="text-center cta w-[45%] block mx-auto mt-5 font-medium text-sm p-4 rounded bg-red-400">
           Click here to Join the Class Now — Only ₦3,000
         </Link>
       </section>
