@@ -47,7 +47,7 @@ export default function Timer() {
   }, []);
 
   return (
-    <div className="w-full mx-auto rounded text-xl bg-black text-white p-4 flex justify-center items-center gap-x-3">
+    <div className="w-full mx-auto rounded text-base bg-black text-white p-4 flex justify-center items-center gap-x-3">
       {/* <TimerItem
         timer={timeLeft.months}
         value={timeLeft.months == 1 ? "Month" : "Months"}
@@ -83,7 +83,7 @@ function TimerItem({ timer, value }: { timer: any; value: string }) {
         <div className="">
           {timer}
         </div>
-        <div className="text-[14px] ">{value}</div>
+        <div className="text-sm ">{value}</div>
       </div>
     // </div>
   );
