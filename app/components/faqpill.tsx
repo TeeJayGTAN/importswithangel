@@ -16,7 +16,7 @@ function FaqPill({question, answer}:{question:string; answer:string}) {
         <span className="question-text font-bold text-base max-w-[85%]">
           {question}
         </span>
-        <span className={`${ isClicked ? ' translate-y-4 opacity-100' : 'translate-y-0 opacity-0'} transition-all duration-500 question-text font-bold text-base max-w-[80%]`}>
+        <span className={`${ isClicked ? ' translate-y-4 opacity-80' : 'translate-y-0 opacity-0'} transition-all duration-500 question-text font-bold text-base max-w-[80%]`}>
           {answer}
         </span>
       </div>
