@@ -4,6 +4,7 @@ import Image from "next/image";
 import FaqPill from "./components/faqpill";
 
 import ReactPlayer from "react-player";
+import Script from "next/script";
 
 export default function Home() {
   const faqs: { question: string; answer: string }[] = [
@@ -78,6 +79,7 @@ export default function Home() {
   ];
   return (
     <div className="w-full">
+      <Script src="https://embed.tawk.to/68252cc4e6bf69190cdb2ee1/1ir8jdo0c"/>
       <header className="font-medium text-sm tracking-tighter w-full bg-black text-white flex justify-center py-4 items-center">
         Imports With Angel
       </header>
