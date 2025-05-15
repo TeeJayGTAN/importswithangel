@@ -4,7 +4,9 @@ import Image from "next/image";
 import FaqPill from "./components/faqpill";
 
 import ReactPlayer from "react-player";
+
 import Script from "next/script";
+import Link from "next/link";
 
 export default function Home() {
   const faqs: { question: string; answer: string }[] = [
@@ -112,11 +114,11 @@ export default function Home() {
               />
             </div>
         </div>
-        <button className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
           <span className="text-lg text-red-700">Step 2 of 2: </span>
           <br />
           Click here to Join the Class Now — Only ₦3,000
-        </button>
+        </Link>
         {/* put timer component here */}
       </section>
       <section className="px-4 hero w-full flex flex-col items-center my-18">
@@ -160,9 +162,9 @@ export default function Home() {
             Resell and make 200%+ profit like my other students
           </li>
         </ul>
-        <button className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
           Click here to Join the Class Now — Only ₦3,000
-        </button>
+        </Link>
       </section>
       <section className="mb-18 px-4 w-full flex flex-col items-center text-center testimonials bg-gray-100 py-18">
         <h3 className="font-bold leading-12 text-4xl text-center w-full capitalize">
@@ -262,9 +264,9 @@ export default function Home() {
         </h5>
         {/* TIMER COMPONENET HERE */}
         <div className="cont w-full flex justify-center">
-          <button className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
+          <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[50%] mt-10 font-medium text-sm p-4 rounded bg-red-400">
             Click here to Join the Class Now — Only ₦3,000
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -311,7 +313,7 @@ export default function Home() {
           <span className="former line-through text-lg opacity-60 font-bold">N10,000</span>
           <span className="discount text-4xl font-bold">N3,000</span>
         </div>
-        <button className="bg-red-400 mt-2 p-4 rounded ">ENROLL NOW</button>
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="bg-red-400 mt-2 p-4 rounded ">ENROLL NOW</Link>
         </div>
       </section> */}
 
@@ -360,9 +362,9 @@ export default function Home() {
         <h5 className="text-sm mt-7 text-center mb-8">
           Don’t miss out. This knowledge could change your income forever.
         </h5>
-        <button className="cta w-[45%] block mx-auto mt-5 font-medium text-sm p-4 rounded bg-red-400">
+        <Link href="http://wa.link/qlhsbr" target="_blank" className="cta w-[45%] block mx-auto mt-5 font-medium text-sm p-4 rounded bg-red-400">
           Click here to Join the Class Now — Only ₦3,000
-        </button>
+        </Link>
       </section>
 
       <section className=" px-4 w-full flex flex-col items-center text-center testimonials bg-gray-100 py-18">
