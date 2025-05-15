@@ -8,6 +8,8 @@ import ReactPlayer from "react-player";
 import Script from "next/script";
 import Link from "next/link";
 
+import Timer from "./components/timer";
+
 export default function Home() {
   const faqs: { question: string; answer: string }[] = [
     {
@@ -119,7 +121,9 @@ export default function Home() {
           <br />
           Click here to Join the Class Now — Only ₦3,000
         </Link>
-        {/* put timer component here */}
+        <div className="my-10">
+          <Timer />
+        </div>
       </section>
       <section className="px-4 hero w-full flex flex-col items-center my-18">
         {/* pain and promise section */}
