@@ -12,7 +12,7 @@ function FaqPill({question, answer}:{question:string; answer:string}) {
 }
   return (
     <div className="question justify-between border-t border-gray-400 py-6 flex items-center">
-      <div className={`faqpill-container flex flex-col gap-y-2 overflow-y-hidden ${isClicked ? 'h-[150px]' : 'h-[50px]'} transition-all duration-400`}>
+      <div className={`faqpill-container flex flex-col gap-y-2 overflow-y-hidden ${isClicked ? 'h-[200px]' : 'h-[50px]'} transition-all duration-400`}>
         <span className="question-text font-bold text-base max-w-[85%]">
           {question}
         </span>
