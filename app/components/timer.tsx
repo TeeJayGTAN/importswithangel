@@ -47,7 +47,7 @@ export default function Timer() {
   }, []);
 
   return (
-    <div className="w-full max-w-[95%] mx-auto rounded text-xl bg-black text-white p-4 flex justify-center items-center gap-x-1">
+    <div className="w-full mx-auto rounded text-xl bg-black text-white p-4 flex justify-center items-center gap-x-3">
       {/* <TimerItem
         timer={timeLeft.months}
         value={timeLeft.months == 1 ? "Month" : "Months"}
@@ -57,17 +57,17 @@ export default function Timer() {
         timer={timeLeft.days}
         value={timeLeft.days == 1 ? "Day" : "Days"}
       />
-      <hr className="border-r border-white w-7 rotate-z-90"/>
+      <span className="border-1  h-8 border-white"></span>
       <TimerItem
         timer={timeLeft.hours}
         value={timeLeft.hours == 1 ? "Hour" : "Hours"}
       />
-      <hr className="border-r border-white w-7 rotate-z-90"/>
+      <span className="border-1  h-8 border-white"></span>
       <TimerItem
         timer={timeLeft.minutes}
         value={timeLeft.minutes == 1 ? "Minute" : "Minutes"}
       />
-      <hr className="border-r border-white w-7 rotate-z-90"/>
+      <span className="border-1  h-8 border-white"></span>
       <TimerItem
         timer={timeLeft.seconds}
         value={timeLeft.seconds == 1 ? "Second" : "Seconds"}
@@ -78,18 +78,13 @@ export default function Timer() {
 
 function TimerItem({ timer, value }: { timer: any; value: string }) {
   return (
-    <div className="">
-      {/* <Image
-        src={frame}
-        alt="peje"
-        className="w-[120px] h-[120px] lg:w-[180px] lg:h-[180px] frame"
-      /> */}
+    // <div className="">
       <div className="w-full flex justify-center items-center gap-x-1">
         <div className="">
           {timer}
         </div>
         <div className="text-[14px] ">{value}</div>
       </div>
-    </div>
+    // </div>
   );
 }
